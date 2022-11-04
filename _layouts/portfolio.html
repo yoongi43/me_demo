@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{% raw %}
+<!-- {% raw %} -->
 {% assign profile = site.data.profile %}
 {% assign urlstart = profile.image | split: '/' %}
 {% if urlstart == 'https:' %}
@@ -9,7 +9,7 @@ layout: page
 {% else %}
   {% assign imgurl = profile.image | relative_url %}
 {% endif %}
-{% endraw %}
+<!-- {% endraw %} -->
 
 </div><!-- This Tag means End .container -->
 <div id="portfolio">
@@ -25,9 +25,9 @@ layout: page
         <div class="description">{{ profile.description | markdownify }}</div>
 
         <ul id="icons">
-          {% raw %}
+          <!-- {% raw %} -->
           {% include social.html %}
-          {% endraw %}
+          <!-- {% endraw %} -->
         </ul>
       </div>
     </div>
@@ -36,24 +36,24 @@ layout: page
   <!-- career section -->
   <section id="career" class="row">
     <article class="exper col-12 col-md-6">
-      {% raw %}
+      <!-- {% raw %} -->
       {% include experience.html %}
       {% include awards.html %}
-      {% endraw %}
+      <!-- {% endraw %} -->
 
     </article>
     <article class="skills col-12 col-md-6">
-      {% raw %}
+      <!-- {% raw %} -->
       {% include interests.html %}
       {% include skills.html %}
-      {% endraw %}
+      <!-- {% endraw %} -->
 
     </article>
   </section>
-  {% raw %}
+  <!-- {% raw %} -->
   {% include projects.html %}
 
   {% include recentpubs.html %}
-  {% endraw %}
+  <!-- {% endraw %} -->
 
 </div>
