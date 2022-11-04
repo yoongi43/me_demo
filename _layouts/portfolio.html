@@ -25,7 +25,9 @@ layout: page
         <div class="description">{{ profile.description | markdownify }}</div>
 
         <ul id="icons">
+          {% raw %}
           {% include social.html %}
+          {% endraw %}
         </ul>
       </div>
     </div>
