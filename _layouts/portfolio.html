@@ -1,8 +1,7 @@
-{% raw %}
 ---
 layout: page
 ---
-okokokok??
+{% raw %}
 {% assign profile = site.data.profile %}
 {% assign urlstart = profile.image | split: '/' %}
 {% if urlstart == 'https:' %}
@@ -10,6 +9,7 @@ okokokok??
 {% else %}
   {% assign imgurl = profile.image | relative_url %}
 {% endif %}
+{% endraw %}
 
 </div><!-- This Tag means End .container -->
 <div id="portfolio">
@@ -47,4 +47,3 @@ okokokok??
 
   {% include recentpubs.html %}
 </div>
-{% endraw %}
