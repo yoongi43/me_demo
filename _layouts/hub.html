@@ -1,4 +1,3 @@
-{% raw %}
 ---
 layout: page
 ---
@@ -10,13 +9,16 @@ layout: page
   <div class="row">
     <!-- Aside Navigation  -->
     <aside id="aside" class="col-md-4">
+      {% raw %}
       {% include hubaside.html %}
+      {% endraw %}
     </aside>
     <!-- Post List -->
     <section id="content" class="col-md-8">
       {{ page.description | markdownify }}
       <section class="links">
         <h2>Links</h2>
+        {% raw %}
         {% if page.citekey %}
           {% nocite page.citekey %}
           {% bibliography --cited --template pubhublinkstemplate %}
@@ -25,14 +27,16 @@ layout: page
             {% include hubadditionallinks.html %}
           </ol>
         {% endif %}
+        {% endraw %}
       </section>
       {{ content }}
       <section class="abs-bibtex">
+        {% raw %}
         {% if page.citekey %}
           {% bibliography --cited --template pubhubabsbibtex %}
         {% endif %}
+        {% endraw %}
       </section>
     </section>
   </div>
 </div>
-{% endraw %}
