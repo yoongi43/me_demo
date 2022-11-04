@@ -34,16 +34,24 @@ layout: page
   <!-- career section -->
   <section id="career" class="row">
     <article class="exper col-12 col-md-6">
+      {% raw %}
       {% include experience.html %}
       {% include awards.html %}
+      {% endraw %}
+
     </article>
     <article class="skills col-12 col-md-6">
+      {% raw %}
       {% include interests.html %}
       {% include skills.html %}
+      {% endraw %}
+
     </article>
   </section>
-
+  {% raw %}
   {% include projects.html %}
 
   {% include recentpubs.html %}
+  {% endraw %}
+
 </div>
