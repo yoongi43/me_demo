@@ -5,7 +5,7 @@ title:  "Single Stem Results"
 # categories: jekyll update
 ---
 
-Medley-Solos-DB samples (trained on Medley-Solos-DB)
+## Medley-Solos-DB samples (trained on Medley-Solos-DB)
 
 <!-- Low-quality, Mel2Mel + Diffwave, TF-CPq(ours), High-Quality -->
 | head1        | head two          | three |
@@ -16,6 +16,6 @@ Medley-Solos-DB samples (trained on Medley-Solos-DB)
 | ok           | good `zoute` drop | yumm  |
 
 
-Medley-Solos-DB samples (trained on MUSDB18)
+## Medley-Solos-DB samples (trained on MUSDB18)
 
-Low-quality, Mel2Mel + Diffwave, TF-CPq(ours),High-Quality
+<!-- Low-quality, Mel2Mel + Diffwave, TF-CPq(ours),High-Quality -->
