@@ -218,13 +218,13 @@ You can choose which posts will appear in the "Related Posts" section below a po
 ~~~yml
 # file: `category/_posts/2020-02-01-some-post.md`
 ---
-layout: post
-related_posts:
-  # Specify via the path in the file system
-  - category/_posts/2020-01-01-other-post.md
-  # Can also use the url of the post,
-  # but this will break when changing the `permalink` setting!
-  - /blog/category/2020-01-02-other-other-post/
+# layout: post
+# related_posts:
+#   # Specify via the path in the file system
+#   - category/_posts/2020-01-01-other-post.md
+#   # Can also use the url of the post,
+#   # but this will break when changing the `permalink` setting!
+#   - /blog/category/2020-01-02-other-other-post/
 ---
 ~~~
 
