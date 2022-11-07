@@ -17,7 +17,7 @@ title:  "Single Stem Results"
 
 | Low-Quality | Mel2Mel+Diffwave | TF-CPq(ours) | High-Quality |
 |:------------|:-----------------|:-------------|:-------------|
-|<audio controls> <source src='../audio_samples/solo/noisy.wav'> </audio> | | | |
+|<audio controls> <source src='./audio_samples/solo/noisy.wav'> </audio> | | | |
 
 ###### Medley-Solos-DB samples (trained on MUSDB18)
 
