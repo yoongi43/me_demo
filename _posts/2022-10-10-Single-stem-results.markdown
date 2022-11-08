@@ -7,6 +7,8 @@ title:  "Single Stem Results"
 
 <audio controls> <source src='/assets/audio_samples/solo/noisy.wav'> </audio>
 
+{% include embed-audio.html src="/assets/audio/<audio-source-name>.wav" %}
+
 
 ###### Medley-Solos-DB samples (trained on Medley-Solos-DB)
 <!-- Low-quality, Mel2Mel + Diffwave, TF-CPq(ours), High-Quality -->
